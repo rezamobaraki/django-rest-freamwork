@@ -12,7 +12,7 @@ def one(request):
         name = request.data['name']
         return Response({"name": f'my name is {name}'})
     else:
-        return Response({"name": 'my name is rezoo'})
+        return Response({"name": 'my name is Reza Mobaraki'})
 
 
 # @api_view()
