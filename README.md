@@ -1,75 +1,96 @@
-# django-rest-framework
+# Django REST Framework Tutorial
 
-![Restful](logo.png)
+![Django REST Framework](logo.png)
 
-Hello friends of this [Mr.Rezoo](https://www.linkedin.com/in/mrrezoo/)
+A comprehensive Django REST Framework tutorial project created by [Reza Mobaraki](https://www.linkedin.com/in/reza-mobaraki/)
+
+This project demonstrates various Django REST Framework features and concepts through practical examples and implementations.
 
 ## Table of contents
 
-* [General info](#General-info)
-* [Technologies](#Technologies)
-* [Help](#Help)
-* [Setup](#Setup)
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Contributing](#contributing)
+* [Setup](#setup)
 * [Credits](#credits)
-* [Contributors](#Contributors)
+* [Contributors](#contributors)
 * [License](#license)
 
 ## General info
 
-Work on Django REST Framework  . . .
+This project is a comprehensive tutorial for Django REST Framework (DRF) that covers essential concepts and practical implementations. It serves as a learning resource for developers who want to master REST API development using Django.
 
-Some features we worked on
+### Features Covered
 
-* Response
-* Serializer
-* Basic Authentication
-* Session Authentication
-* Token Authentication
-* ViewSets
-* Routers
-* validators
-* throttling
-* pagination
-* serializer relation
+This tutorial demonstrates the following Django REST Framework features:
+
+* **Response Handling** - Custom response formatting and status codes
+* **Serializers** - Data validation and transformation
+* **Authentication Methods**:
+  - Basic Authentication
+  - Session Authentication  
+  - Token Authentication
+* **ViewSets** - Class-based views for CRUD operations
+* **Routers** - Automatic URL routing for ViewSets
+* **Validators** - Custom and built-in field validation
+* **Throttling** - Rate limiting for API endpoints
+* **Pagination** - Efficient data pagination strategies
+* **Serializer Relations** - Handling related model data
 
 ## Technologies
 
-Project is created with:
+This project is built with:
 
-* Python: 3.9
-* Django: 3.2.3
-* django rest framework: 3.12.4
+* **Python**: 3.9+
+* **Django**: 3.2.3
+* **Django REST Framework**: 3.12.4
 
-## Help
+## Contributing
 
-If you are considering a particular method, more modern technology Add to my project and send merge request, I will add
-you in the credits and contributors section
+If you have ideas for improvements, modern technologies, or new features that would enhance this tutorial project, please feel free to:
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Submit a pull request
+
+All contributors will be acknowledged in the credits and contributors section.
 
 ## Setup
 
-* first step : create virtual environment
+Follow these steps to set up the project locally:
+
+### 1. Create Virtual Environment
 
 ```shell
 virtualenv -p python3 venv 
 ```
 
-* second step : activate virtual environment
+### 2. Activate Virtual Environment
 
 ```shell
 source venv/bin/activate  
 ```
 
-* third step : install package | library from requirements.txt
+### 3. Install Dependencies
 
 ```shell
- pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
-* last step run django server
+### 4. Run Database Migrations
 
 ```shell
- python manage.py runserver
+python manage.py migrate
 ```
+
+### 5. Start Development Server
+
+```shell
+python manage.py runserver
+```
+
+The application will be available at `http://localhost:8000/`
 
 ## Credits
 
@@ -77,7 +98,7 @@ source venv/bin/activate
 
 ## Contributors
 
-* [MrRezoo](https://github.com/MrRezoo)
+* [rezamobaraki](https://github.com/rezamobaraki)
 
 ## License
 
